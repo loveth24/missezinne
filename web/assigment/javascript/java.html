@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>introduction to javasript</title>
+</head>
+<body >
+ <button onclick="deletetext()">delete me</button>
+</body>
+</html>
+<script type="text/javascript">
+	// var number = 2;
+	// var check=true;
+	// // this is javascript
+	// var chinedu= " he is good";
+	// document.write("this is javascript");
+	// document.write(chinedu);
+	// var number1=2;
+	// var number2=3;
+	// var answer=(number1) + (number2);
+ //  alert(answer);
+	// function deletetext(){
+	// 	var check =confirm ("are u sure you want to delete?"); 
+	// 	if (check){
+	// 		alert ("delete successful");
+	// 	}else{
+	// 		alert("unsuccessful")
+	// 	}
+	
+	var firstnumber=prompt("Enter the first number");
+	if (isNaN(firstnumber)) {
+		alert("you did not enter a number");
+	}else{
+		var secondnumber=prompt("enter the second number");
+		if (isNaN(secondnumber)) {
+			alert("you did not enter a number");
+		}else{
+			var summation = eval(parseInt(firstnumber) + parseInt(secondnumber));
+			alert(summation);
+		}
+	}
+</script>

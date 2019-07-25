@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form	</title>
+	<style type="text/css">
+	.input{
+		width: 500px;
+		height:40px; 
+
+	}	
+	</style>
+</head>
+<body>
+<form>
+	<input type="text" name="" class="input" required placeholder="Enter your name" onfocus="showtext()" onblur="hidetext()"> <span id="textbox"></span><br>	
+	<input type="EMAIL" name="" class="input">
+	<input type="checkbox" name="" class="input">
+	male<input type="radio" name="funny">
+	female<input type="radio" name="funny">
+	<input type="date" name="">
+	<input type="submit" name="" value="register">
+	<input type="file" name=""><br>	
+</form><br>
+<!-- <video src="aa.mp4" width="500px" height="500" autoplay controls></video>
+ --></body>
+ <script type="text/javascript">
+ 	function showtext() {
+ 		var show=document.getElementById('textbox');
+ 		show.innerHTML="Enter a valid email address";
+
+ }
+ function hidetext(){
+ 	var show= document.getElementById('textbox');
+ 	show.innerHTML="";
+ }
+ </script>
+</html>
